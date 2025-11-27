@@ -1,0 +1,24 @@
+---
+version: "0.1"
+report: true
+mergeArtifacts: true
+matrix:
+  os: [linux, win] # Define multiple operating systems
+  methods: ['tests/test_3.spec.js','tests/test_2.spec.js','tests/test_1.spec.js']
+runson: ${matrix.os} # Dynamically set the OS for each matrix entry
+pre:
+  - npm install
+  - npx playwright install
+cacheKey: '{{ checksum "package-lock.json" }}'
+cacheDirectories:
+  - node_modules
+testSuites:
+  - npx playwright test $methods
+
+uploadArtefacts:
+  [{
+    "name": "Reports",
+    "path": ["Reports/"]
+  }]
+
+jobLabel: [playwright-VanillaJS, runson, matrix] 
