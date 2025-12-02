@@ -8,9 +8,14 @@ const caps = {
   browserName: "Chrome",
   browserVersion: "latest",
   lt: {
-    platform: "Windows 11",
-    build: "Playwright Build",
-    name: "Scenario 1"
+    'platform': process.env.HYPEREXECUTE_PLATFORM,
+    'build': 'Playwright-102 HyperExecute Build Matrix',
+    'name': 'Playwright HyperExecute Test',
+    'user': process.env.LT_USERNAME,
+    'accessKey': process.env.LT_ACCESS_KEY,
+    'network': true,
+    'video': true,
+    'console': true
   }
 };
 
