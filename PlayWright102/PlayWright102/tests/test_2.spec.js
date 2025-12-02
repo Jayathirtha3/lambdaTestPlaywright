@@ -1,5 +1,5 @@
-const { test } = require('../lambdatest-setup')
-const { expect } = require('@playwright/test')
+const { test, expect } = require("@playwright/test");
+const { getBrowser } = require("../lambdatest-setup");
 
 test.describe('PlayWright Vanilla JS - 2', () => {
   test('Scenario 2: Drag & Drop Sliders - Set value to 95', async ({ page }) => {

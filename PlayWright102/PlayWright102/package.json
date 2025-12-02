@@ -7,13 +7,11 @@
   },
   "description": "Sample project to run playwright tests using playwright runner on LambdaTest platform",
   "scripts": {
-    "test": "npx playwright test --config=./playwright.config.js"
+    "test": "npx playwright test"
   },
   "devDependencies": {
     "@playwright/test": "^1.20.2",
-    "playwright": "^1.20.2"
-  },
-  "dependencies": {
+    "playwright": "^1.20.2",
     "dotenv": "^16.4.7"
   }
 }

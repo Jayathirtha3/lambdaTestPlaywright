@@ -1,0 +1,76 @@
+<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="34.679">
+<testsuite name="test_1.spec.js" timestamp="1764659623066" hostname="" tests="1" failures="0" skipped="0" time="8.283" errors="0">
+<testcase name="PlayWright Vanilla JS - 1 Scenario 1: Simple Form Demo" classname="[chrome:latest@lambdatest] › test_1.spec.js:5:1 › PlayWright Vanilla JS - 1 › Scenario 1: Simple Form Demo" time="8.283">
+<system-out>
+Navigated to LambdaTest Selenium Playground
+Clicked on 'Simple Form Demo' link
+Verifying URL...
+Filling input field with message: "Welcome to LambdaTest"
+Clicking the button to display the input message...
+Displayed message: "Welcome to LambdaTest"
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test_2.spec.js" timestamp="1764659623066" hostname="" tests="1" failures="0" skipped="0" time="4.307" errors="0">
+<testcase name="PlayWright Vanilla JS - 2 Scenario 2: Drag &amp; Drop Sliders - Set value to 95" classname="[chrome:latest@lambdatest] › test_2.spec.js:5:3 › PlayWright Vanilla JS - 2 › Scenario 2: Drag &amp; Drop Sliders - Set value to 95" time="4.307">
+<system-out>
+Navigated to Selenium Playground
+Clicked on 'Drag &amp; Drop Sliders'
+Initial slider value: 15
+Current slider value: 95
+Final slider value: 95
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test_3.spec.js" timestamp="1764659623066" hostname="" tests="1" failures="0" skipped="0" time="4.256" errors="0">
+<testcase name="PlayWright Vanilla JS - 3 Scenario 3: Input Form Submit" classname="[chrome:latest@lambdatest] › test_3.spec.js:5:3 › PlayWright Vanilla JS - 3 › Scenario 3: Input Form Submit" time="4.256">
+<system-out>
+Navigated to Selenium Playground
+Clicked on 'Input Form Submit' link
+Clicked submit button to check form validation
+Filling in the form fields...
+Submitted the form
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test_1.spec.js" timestamp="1764659623066" hostname="" tests="1" failures="0" skipped="0" time="7.985" errors="0">
+<testcase name="PlayWright Vanilla JS - 1 Scenario 1: Simple Form Demo" classname="[MicrosoftEdge:latest@lambdatest] › test_1.spec.js:5:1 › PlayWright Vanilla JS - 1 › Scenario 1: Simple Form Demo" time="7.985">
+<system-out>
+Navigated to LambdaTest Selenium Playground
+Clicked on 'Simple Form Demo' link
+Verifying URL...
+Filling input field with message: "Welcome to LambdaTest"
+Clicking the button to display the input message...
+Displayed message: "Welcome to LambdaTest"
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test_2.spec.js" timestamp="1764659623066" hostname="" tests="1" failures="0" skipped="0" time="3.848" errors="0">
+<testcase name="PlayWright Vanilla JS - 2 Scenario 2: Drag &amp; Drop Sliders - Set value to 95" classname="[MicrosoftEdge:latest@lambdatest] › test_2.spec.js:5:3 › PlayWright Vanilla JS - 2 › Scenario 2: Drag &amp; Drop Sliders - Set value to 95" time="3.848">
+<system-out>
+Navigated to Selenium Playground
+Clicked on 'Drag &amp; Drop Sliders'
+Initial slider value: 15
+Current slider value: 95
+Final slider value: 95
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test_3.spec.js" timestamp="1764659623066" hostname="" tests="1" failures="0" skipped="0" time="4.401" errors="0">
+<testcase name="PlayWright Vanilla JS - 3 Scenario 3: Input Form Submit" classname="[MicrosoftEdge:latest@lambdatest] › test_3.spec.js:5:3 › PlayWright Vanilla JS - 3 › Scenario 3: Input Form Submit" time="4.401">
+<system-out>
+Navigated to Selenium Playground
+Clicked on 'Input Form Submit' link
+Clicked submit button to check form validation
+Filling in the form fields...
+Submitted the form
+
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

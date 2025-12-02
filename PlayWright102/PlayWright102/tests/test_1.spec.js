@@ -1,5 +1,5 @@
-const { test } = require('../lambdatest-setup')
-const { expect } = require('@playwright/test')
+const { test, expect } = require("@playwright/test");
+const { getBrowser } = require("../lambdatest-setup");
 
 test.describe('PlayWright Vanilla JS - 1', () => {
 test('Scenario 1: Simple Form Demo', async ({ page }) => {

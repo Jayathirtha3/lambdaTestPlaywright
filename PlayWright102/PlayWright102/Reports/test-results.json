@@ -1,0 +1,423 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Jayathirtha A M/Documents/27NOV2025/lambdaTestPlaywright/PlayWright102/PlayWright102/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "chrome:latest@lambdatest",
+        "testDir": "C:/Users/Jayathirtha A M/Documents/27NOV2025/lambdaTestPlaywright/PlayWright102/PlayWright102/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Users/Jayathirtha A M/Documents/27NOV2025/lambdaTestPlaywright/PlayWright102/PlayWright102/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "MicrosoftEdge:latest@lambdatest",
+        "testDir": "C:/Users/Jayathirtha A M/Documents/27NOV2025/lambdaTestPlaywright/PlayWright102/PlayWright102/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "Reports/html-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "Reports/test-results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "Reports/results.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "C:/Users/Jayathirtha A M/Documents/27NOV2025/lambdaTestPlaywright/PlayWright102/PlayWright102/tests",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.21.1",
+    "workers": 1,
+    "webServer": null,
+    "_attachments": [],
+    "_configDir": "C:\\Users\\Jayathirtha A M\\Documents\\27NOV2025\\lambdaTestPlaywright\\PlayWright102\\PlayWright102",
+    "_testGroupsCount": 6,
+    "_screenshotsDir": ""
+  },
+  "suites": [
+    {
+      "title": "test_1.spec.js",
+      "file": "test_1.spec.js",
+      "line": 0,
+      "column": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "PlayWright Vanilla JS - 1",
+          "file": "test_1.spec.js",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Scenario 1: Simple Form Demo",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chrome:latest@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 8283,
+                      "stdout": [
+                        {
+                          "text": "Navigated to LambdaTest Selenium Playground\n"
+                        },
+                        {
+                          "text": "Clicked on 'Simple Form Demo' link\n"
+                        },
+                        {
+                          "text": "Verifying URL...\n"
+                        },
+                        {
+                          "text": "Filling input field with message: \"Welcome to LambdaTest\"\n"
+                        },
+                        {
+                          "text": "Clicking the button to display the input message...\n"
+                        },
+                        {
+                          "text": "Displayed message: \"Welcome to LambdaTest\"\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "test_1.spec.js",
+              "line": 5,
+              "column": 1
+            }
+          ]
+        },
+        {
+          "title": "PlayWright Vanilla JS - 1",
+          "file": "test_1.spec.js",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Scenario 1: Simple Form Demo",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "MicrosoftEdge:latest@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 7985,
+                      "stdout": [
+                        {
+                          "text": "Navigated to LambdaTest Selenium Playground\n"
+                        },
+                        {
+                          "text": "Clicked on 'Simple Form Demo' link\n"
+                        },
+                        {
+                          "text": "Verifying URL...\n"
+                        },
+                        {
+                          "text": "Filling input field with message: \"Welcome to LambdaTest\"\n"
+                        },
+                        {
+                          "text": "Clicking the button to display the input message...\n"
+                        },
+                        {
+                          "text": "Displayed message: \"Welcome to LambdaTest\"\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "test_1.spec.js",
+              "line": 5,
+              "column": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "test_2.spec.js",
+      "file": "test_2.spec.js",
+      "line": 0,
+      "column": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "PlayWright Vanilla JS - 2",
+          "file": "test_2.spec.js",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Scenario 2: Drag & Drop Sliders - Set value to 95",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chrome:latest@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 4307,
+                      "stdout": [
+                        {
+                          "text": "Navigated to Selenium Playground\n"
+                        },
+                        {
+                          "text": "Clicked on 'Drag & Drop Sliders'\n"
+                        },
+                        {
+                          "text": "Initial slider value: 15\n"
+                        },
+                        {
+                          "text": "Current slider value: 95\n"
+                        },
+                        {
+                          "text": "Final slider value: 95\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "test_2.spec.js",
+              "line": 5,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "PlayWright Vanilla JS - 2",
+          "file": "test_2.spec.js",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Scenario 2: Drag & Drop Sliders - Set value to 95",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "MicrosoftEdge:latest@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 3848,
+                      "stdout": [
+                        {
+                          "text": "Navigated to Selenium Playground\n"
+                        },
+                        {
+                          "text": "Clicked on 'Drag & Drop Sliders'\n"
+                        },
+                        {
+                          "text": "Initial slider value: 15\n"
+                        },
+                        {
+                          "text": "Current slider value: 95\n"
+                        },
+                        {
+                          "text": "Final slider value: 95\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "test_2.spec.js",
+              "line": 5,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "test_3.spec.js",
+      "file": "test_3.spec.js",
+      "line": 0,
+      "column": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "PlayWright Vanilla JS - 3",
+          "file": "test_3.spec.js",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Scenario 3: Input Form Submit",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chrome:latest@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 4256,
+                      "stdout": [
+                        {
+                          "text": "Navigated to Selenium Playground\n"
+                        },
+                        {
+                          "text": "Clicked on 'Input Form Submit' link\n"
+                        },
+                        {
+                          "text": "Clicked submit button to check form validation\n"
+                        },
+                        {
+                          "text": "Filling in the form fields...\n"
+                        },
+                        {
+                          "text": "Submitted the form\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "test_3.spec.js",
+              "line": 5,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "PlayWright Vanilla JS - 3",
+          "file": "test_3.spec.js",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Scenario 3: Input Form Submit",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "MicrosoftEdge:latest@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 4401,
+                      "stdout": [
+                        {
+                          "text": "Navigated to Selenium Playground\n"
+                        },
+                        {
+                          "text": "Clicked on 'Input Form Submit' link\n"
+                        },
+                        {
+                          "text": "Clicked submit button to check form validation\n"
+                        },
+                        {
+                          "text": "Filling in the form fields...\n"
+                        },
+                        {
+                          "text": "Submitted the form\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "test_3.spec.js",
+              "line": 5,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
